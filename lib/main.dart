@@ -27,7 +27,9 @@ class _RootPageState extends State<RootPage> {
       appBar: AppBar(
         title: const Text('Flutter'),
       ),
-      floatingActionButton: FloatingActionButton(onPressed: () {}),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {},
+      ),
     );
   }
 }
