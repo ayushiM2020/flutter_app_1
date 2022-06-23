@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:helloworld/home_page.dart';
 
 void main() => runApp(MyApp());
 
@@ -30,6 +31,7 @@ class _RootPageState extends State<RootPage> {
       appBar: AppBar(
         title: const Text('Flutter'),
       ),
+      body: const HomePage(),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           debugPrint('Pressed');
@@ -38,7 +40,7 @@ class _RootPageState extends State<RootPage> {
       ),
       bottomNavigationBar: NavigationBar(
         destinations: const [
-          NavigationDestination(icon: Icon(Icons.home), label: 'label'),
+          NavigationDestination(icon: Icon(Icons.home), label: 'Home'),
           NavigationDestination(icon: Icon(Icons.person), label: 'person'),
         ],
         onDestinationSelected: (int index) {
