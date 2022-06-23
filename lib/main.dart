@@ -21,6 +21,9 @@ class RootPage extends StatefulWidget {
 }
 
 class _RootPageState extends State<RootPage> {
+  int currentPage = 0;
+  //variable placed before build because we don't
+  //want the var to be reset after each app build
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -32,6 +35,12 @@ class _RootPageState extends State<RootPage> {
           debugPrint('Pressed');
         },
         child: const Icon(Icons.home_filled),
+      ),
+      bottomNavigationBar: NavigationBar(
+        destinations: const [
+          NavigationDestination(icon: Icon(Icons.home), label: 'label'),
+          NavigationDestination(icon: Icon(Icons.person), label: 'person'),
+        ],
       ),
     );
   }
