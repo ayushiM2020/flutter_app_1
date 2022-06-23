@@ -34,7 +34,7 @@ class _RootPageState extends State<RootPage> {
         onPressed: () {
           debugPrint('Pressed');
         },
-        child: const Icon(Icons.home_filled),
+        child: const Icon(Icons.add),
       ),
       bottomNavigationBar: NavigationBar(
         destinations: const [
