@@ -28,7 +28,9 @@ class _RootPageState extends State<RootPage> {
         title: const Text('Flutter'),
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: () {},
+        onPressed: () {
+          debugPrint('Float');
+        },
         child: const Icon(Icons.home_filled),
       ),
     );
