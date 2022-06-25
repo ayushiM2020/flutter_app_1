@@ -8,6 +8,10 @@ class LearnFlutterPage extends StatefulWidget {
 class _LearnFlutterPageState extends State<LearnFlutterPage> {
   @override
   Widget build(BuildContext context) {
-    return const Scaffold();
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text(' Learn Flutter'),
+      ),
+    );
   }
 }
