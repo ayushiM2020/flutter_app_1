@@ -14,7 +14,8 @@ class _LearnFlutterPageState extends State<LearnFlutterPage> {
       ),
       body: Column(
         children: [
-          Image.asset('images/sunflower.jpg')
+          Image.asset('images/sunflower.jpg'),
+          const Divider(color: Colors.black)
         ],
       ),
     );
