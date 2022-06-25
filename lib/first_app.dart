@@ -14,7 +14,7 @@ class _LearnFlutterPageState extends State<LearnFlutterPage> {
       ),
       body: Column(
         children: [
-          Image.asset('images/sunflower1.jpg'),
+          Image.asset('images/sunflower.jpg'),
           const SizedBox(
             height: 10,
           ),
