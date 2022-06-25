@@ -15,10 +15,10 @@ class _LearnFlutterPageState extends State<LearnFlutterPage> {
       body: Column(
         children: [
           Image.asset('images/sunflower.jpg'),
-          SizedBox(
+          const SizedBox(
             height: 10,
           ),
-          Divider(color: Colors.black)
+          const Divider(color: Colors.black)
         ],
       ),
     );
