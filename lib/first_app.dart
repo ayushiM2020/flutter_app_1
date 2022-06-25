@@ -12,6 +12,11 @@ class _LearnFlutterPageState extends State<LearnFlutterPage> {
       appBar: AppBar(
         title: const Text(' Learn Flutter'),
       ),
+      body: Column(
+        children: [
+          Image.asset('images/sunflower.jpg')
+        ],
+      ),
     );
   }
 }
